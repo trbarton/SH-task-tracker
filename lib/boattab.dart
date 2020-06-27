@@ -4,24 +4,37 @@ class BoatTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView(
+      padding: EdgeInsets.all(8.0),
       children: <Widget>[
-        ListTile(
-          title: Text("This is a task"),
+        Card(
+          child: ListTile(
+            title: Text("This is a task"),
+          ),
         ),
-        ListTile(
-          title: Text("This is a task"),
+        Card(
+          child: ListTile(
+            title: Text("This is a task"),
+          ),
         ),
-        ListTile(
-          title: Text("This is a task"),
+        Card(
+          child: ListTile(
+            title: Text("This is a task"),
+          ),
         ),
-        ListTile(
-          title: Text("This is a task"),
+        Card(
+          child: ListTile(
+            title: Text("This is a task"),
+          ),
         ),
-        ListTile(
-          title: Text("This is a task"),
+        Card(
+          child: ListTile(
+            title: Text("This is a task"),
+          ),
         ),
-        ListTile(
-          title: Text("This is a task"),
+        Card(
+          child: ListTile(
+            title: Text("This is a task"),
+          ),
         ),
       ],
     );
